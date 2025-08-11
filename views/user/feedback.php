@@ -18,7 +18,7 @@
                 <label for="content" class="form-label">Nội dung</label>
                 <textarea class="form-control" id="content" name="content" rows="3" placeholder="Viết nội dung đánh giá"></textarea>
             </div>
-            <button disabled class="btn bg-main shadow" id="sendBtn" name="sendBtn" type="submit">Gửi đi</button>
+            <button disabled class="btn btn-dark shadow" id="sendBtn" name="sendBtn" type="submit">Gửi đi</button>
         </form>
     </div>
 </div>
