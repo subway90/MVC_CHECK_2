@@ -1,10 +1,10 @@
 <div class="container d-flex justify-content-center p-3">
     <div class="col-12 col-md-6 col-lg-5 card-result rounded-3 py-5 px-3 px-lg-5 text-center">
         <div class="h3 text-main text-uppercase mb-3">
-            Đánh giá / Feedback
+            Đánh giá dịch vụ
         </div>
         <form action="" method="post">
-            <label for="range" class="form-label">Mức điểm / Score</label>
+            <label for="range" class="form-label">Mức điểm đánh giá</label>
             <div id="feedbackMessage" class="text-main"></div>
             <div id="range" class="d-flex justify-content-center gap-2">
                 <i id="star1" class="bi bi-star-fill fs-3 color-muted" data-value="1"></i>
@@ -15,10 +15,10 @@
                 <input type="hidden" name="point" id="point" value="">
             </div>
             <div class="my-3">
-                <label for="content" class="form-label">Nội dung / Content</label>
+                <label for="content" class="form-label">Nội dung</label>
                 <textarea class="form-control" id="content" name="content" rows="3" placeholder="Viết nội dung đánh giá"></textarea>
             </div>
-            <button disabled class="btn bg-main shadow" id="sendBtn" name="sendBtn" type="submit">Gửi đi / Send</button>
+            <button disabled class="btn bg-main shadow" id="sendBtn" name="sendBtn" type="submit">Gửi đi</button>
         </form>
     </div>
 </div>
@@ -32,11 +32,11 @@
         const feedbackMessage = document.getElementById('feedbackMessage');
 
         const messages = {
-            1: "Rất không hài lòng / Very Dissatisfied",
-            2: "Không hài lòng / Dissatisfied",
-            3: "Bình thường / Neutral",
-            4: "Hài lòng / Satisfied",
-            5: "Rất hài lòng / Very Satisfied"
+            1: "Rất không hài lòng",
+            2: "Không hài lòng",
+            3: "Bình thường",
+            4: "Hài lòng",
+            5: "Rất hài lòng"
         };
 
         stars.forEach(star => {

@@ -95,8 +95,8 @@
     
 </div>
 
-<!-- <div class="text-center">
-    <a id="feedback" href="/feedback" class="bg-main fs-6 px-4 fw-bold btn mb-5">
+<div class="text-center">
+    <a id="feedback" href="/feedback" class="btn btn-dark fs-6 px-4 fw-bold btn mb-5">
         Đánh giá dịch vụ
     </a>
-</div> -->
+</div>

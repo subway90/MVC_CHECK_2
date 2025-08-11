@@ -134,3 +134,11 @@ body {
         transform: translateY(-5px);
     }
 }
+
+.color-muted {
+    color: #333333;
+}
+
+.color-yellow {
+    color: #f8ca0f;
+}

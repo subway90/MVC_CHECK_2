@@ -47,5 +47,5 @@ if(isset($_POST['sendBtn'])) {
 }
 
 # [VIEW]
-if(isset($_SESSION['bool_feedback'])) view('user','Kết quả đánh giá / Result','result_feedback',null);
-view('user','Đánh giá / Feedback','feedback',null);
+if(isset($_SESSION['bool_feedback'])) view('user','Kết quả đánh giá','result_feedback',null);
+view('user','Đánh giá dịch vụ','feedback',null);
