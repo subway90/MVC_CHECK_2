@@ -23,3 +23,19 @@
 <?= toast_show() // Hiện thị toast nếu có ?>
 
 <body>
+
+
+<div class="container d-flex justify-content-center gap-2 gap-lg-3 mt-4 mt-lg-2">
+    <div class="col-3 col-lg-1 my-auto text-end">
+        <img class="w-75" src="<?= URL_STORAGE ?>system/favicon.png" alt="">
+    </div>
+    <div class="col-3 col-lg-2 my-auto">
+        <img class="w-100" src="<?= URL_STORAGE ?>system/quananngon.png" alt="">
+    </div>
+    <div class="col-3 col-lg-1 my-auto">
+        <img class="w-75" src="<?= URL_STORAGE ?>system/saigonngon.jpg" alt="">
+    </div>
+    <div class="col-3 col-lg-1 my-auto text-start">
+        <img class="w-75" src="<?= URL_STORAGE ?>system/ngongarden.png" alt="">
+    </div>
+</div>
