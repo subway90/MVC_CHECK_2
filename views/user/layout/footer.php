@@ -8,8 +8,10 @@
         <img class="w-100 shadow-pic" src="<?= URL_STORAGE ?>system/kn.png" alt="">
     </div>
 
-    <div class="col-6 col-lg-2">
-        <img class="w-100 shadow-pic" src="<?= URL_STORAGE ?>system/cb.png" alt="">
+    <div class="col-12 text-center">
+        <p class="text-date">
+            cát bà, 18.08.2025
+        </p>
     </div>
 
 </div>

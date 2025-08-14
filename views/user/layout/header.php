@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="/assets/css/custom.css">
     <!-- Animate -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <title><?= $title ? $title : WEB_NAME ?></title>
 </head>
 
