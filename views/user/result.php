@@ -57,14 +57,14 @@
             <?= $_SESSION['temp']['result'][8] ?? '<span class="small fst-italic">(trống)</span>' ?>
             </div>
         </div>
-        <div class="d-flex flex-column flex-lg-row align-items-center justify-content-lg-between">
+        <!-- <div class="d-flex flex-column flex-lg-row align-items-center justify-content-lg-between">
             <div class="fw-bold">
                 Loại phòng
             </div>
             <div class="fw-info fs-4 text-blue">
                 <?= $_SESSION['temp']['result'][5] ?? '<span class="small fst-italic">(trống)</span>' ?>
             </div>
-        </div>
+        </div> -->
         <div class="d-flex flex-column flex-lg-row align-items-center justify-content-lg-between">
             <div class="fw-bold">
                 Người ở cùng
@@ -77,7 +77,7 @@
                     }
                 }
                 else{ ?>
-                    <span class="small text-muted fst-italic">không có / none</span>
+                    <span class="small text-muted fst-italic">không có</span>
                 <?php } ?>
             </div>
         </div>
