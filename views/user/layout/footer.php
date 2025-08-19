@@ -10,7 +10,7 @@
 
     <div class="col-12 text-center">
         <p class="text-date">
-            cát bà, 18.08.2025
+            cát bà, 20.08.2025
         </p>
     </div>
 
