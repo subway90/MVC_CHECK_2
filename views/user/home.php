@@ -5,7 +5,7 @@
                 Vui lòng nhập số điện thoại của quý khách
             </label>
             <div class="col-12 col-md-8 col-lg-6">
-                <input id="name" name="input_key" type="text" class="form-control w-100" placeholder="số điện thoại">
+                <input id="name" name="input_key" type="text" class="form-control w-100 text-center" placeholder="nhập số điện thoại tại đây">
             </div>
             <button type="submit" class="fw-bold btn-dark btn mt-3 px-3">
                 Xác nhận
